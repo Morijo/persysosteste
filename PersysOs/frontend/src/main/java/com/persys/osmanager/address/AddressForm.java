@@ -23,7 +23,6 @@ import com.vaadin.ui.VerticalLayout;
 public class AddressForm extends CustomComponent implements IForm<br.com.model.interfaces.IEndereco> {
 
 	private static final long serialVersionUID = 1L;
-	//teste
 	private TextField textFieldCidade; 
 	private ComboBox comboBoxEstado;
 	private TextField textFieldCep;
