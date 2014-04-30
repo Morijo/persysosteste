@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="frontend">
+		<property name="context-root" value="OsManagerWeb"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/backend/backend">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/ant/ant/1.6.5/jar/7d18faf23df1a5c3a43613952e0e8a182664564b/ant-1.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin.external.atmosphere/atmosphere-compat-tomcat7/1.0.18.vaadin3/bundle/46fa8468d43c416e2ec86b14b38f74dd631225e2/atmosphere-compat-tomcat7-1.0.18.vaadin3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/gwt-maps.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/ant/ant-launcher/1.6.5/jar/b06fd72d7cabd5ec39cea153a21fa5cea5d37f71/ant-launcher-1.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/refresher-1.2.1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.vaadin.addons/dcharts-widget/1.7.0/jar/d0c08997dd24b79d780965ab72a16f3eb210d058/dcharts-widget-1.7.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.apache.james/apache-mime4j/0.6/jar/945007627e8d12275d755081a9e609c018e1210d/apache-mime4j-0.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-collections/commons-collections/3.2/jar/f951934aa5ae5a88d7e6dfaa6d32307d834a88be/commons-collections-3.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/vaadin-charts-1.0.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/googlemaps-0.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/flexibleoptiongroup-2.0.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.jsoup/jsoup/1.6.3/jar/5cf4f55a71ae352d9c13ede8388974527540e506/jsoup-1.6.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.validation/validation-api/1.0.0.GA/jar/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-theme-compiler/7.1.14/jar/cd66518953466445fe680d5531c3d1c9d94d21f9/vaadin-theme-compiler-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/csvalidation-0.5.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-client-compiler-deps/1.0.2/jar/ca682cea438815d0393694f6971d540c30ad61df/vaadin-client-compiler-deps-1.0.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-codec/commons-codec/1.5/jar/cf993e250ff71804754ec2734a16f23c0be99f70/commons-codec-1.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin.external.atmosphere/atmosphere-compat-jbossweb/1.0.18.vaadin3/bundle/3927f08decdf080f461e719cdbe3ae4b9baecda4/atmosphere-compat-jbossweb-1.0.18.vaadin3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/net.sourceforge.cssparser/cssparser/0.9.5/jar/7222f4a7e50fc57a88a546a228088524bdbbdaea/cssparser-0.9.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin.external.slf4j/vaadin-slf4j-jdk14/1.6.1/jar/2268b4bb8226e01963357bc9a02a5d56c9992b8a/vaadin-slf4j-jdk14-1.6.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/resetbuttonfortextfield-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-cli/commons-cli/1.2/jar/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/popupbutton-jar-2.2.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/googlemaps-0.6-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/wizards-for-vaadin-1.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-client-compiled/7.1.14/jar/7baae92fb347725410cedff57c1aa270c971e9d4/vaadin-client-compiled-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-server/7.1.14/jar/5f6f8b7a40ce41ed8c9c74c60cae7feb5a29044/vaadin-server-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin.external.atmosphere/atmosphere-runtime/1.0.18.vaadin3/bundle/55efbd8d17a969176f1a85be61f058ad6e9a3425/atmosphere-runtime-1.0.18.vaadin3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-lang/commons-lang/2.6/jar/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.w3c.css/sac/1.3/jar/cdb2dcb4e22b83d6b32b93095f644c3462739e82/sac-1.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin.external.atmosphere/atmosphere-compat-tomcat/1.0.18.vaadin3/bundle/4fa2093259cb2e77f9279c12b0e9f3c411c6ed7/atmosphere-compat-tomcat-1.0.18.vaadin3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.validation/validation-api/1.0.0.GA/jar/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-push/7.1.14/jar/76fa6a4063bf794ed520eb29ebbd7f653882c84c/vaadin-push-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/dcharts-1.7.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-shared-deps/1.0.3/jar/47684b35f67ca2cdb33c4a5202f7d90fc95faa71/vaadin-shared-deps-1.0.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.mortbay.jetty/jetty/6.1.11/jar/ed919e7d89272072c23024769871628f95d317b/jetty-6.1.11.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.jdesktop/swing-worker/1.1/jar/dc9f8d6f7236087924aad28fbec794a087dd1b3d/swing-worker-1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-client-compiler/7.1.14/jar/38f590baecc819ccbc2a0990da14e9a5e900d92/vaadin-client-compiler-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.apache.commons/commons-jexl/2.1.1/jar/6ecc181debade00230aa1e17666c4ea0371beaaa/commons-jexl-2.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-shared/7.1.14/jar/62f8b39193da46d75b43fb4af5d7003007aec90/vaadin-shared-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/exporter-0.0.5.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/frontend/libs/itextpdf-5.3.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.mortbay.jetty/jetty-util/6.1.11/jar/7913f0aeda9642d5b5f6e13bb9a33d7c41a98b41/jetty-util-6.1.11.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-client/7.1.14/jar/496141182a6649c5770d851699fbb43dc9c74dbc/vaadin-client-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vaadin/vaadin-themes/7.1.14/jar/17b5dfed9a6d3a013159957652a7370ea854383d/vaadin-themes-7.1.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-io/commons-io/2.2/jar/83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a/commons-io-2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.mortbay.jetty/servlet-api-2.5/6.1.11/jar/5b78111dd48d72addad9193871c9c3ad27e46f9a/servlet-api-2.5-6.1.11.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

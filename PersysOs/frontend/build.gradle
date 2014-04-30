@@ -1,0 +1,47 @@
+apply plugin: "java"
+apply plugin: 'eclipse-wtp'
+apply plugin: "maven"
+apply plugin: 'war'
+ 
+sourceCompatibility = 1.7
+
+def vaadinVersion = '7.1.14'
+
+tasks.withType(Compile) {
+  options.encoding = "iso-8859-1"
+}
+
+repositories {
+    mavenCentral()
+    mavenRepo(urls: 'http://maven.vaadin.com/vaadin-addons')
+}
+
+dependencies {
+    compile(project(':backend'))
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    compile group:'com.vaadin', name:'vaadin-shared', version:vaadinVersion
+    compile group:'com.vaadin', name:'vaadin-shared-deps', version:"1.+"
+    compile group:'com.vaadin', name:'vaadin-push', version:vaadinVersion
+    compile group:'com.vaadin', name:'vaadin-server', version:vaadinVersion
+    compile group:'com.vaadin', name:'vaadin-client-compiled', version:vaadinVersion
+    compile group:'com.vaadin', name:'vaadin-client-compiler', version:vaadinVersion
+    compile group:'com.vaadin', name:'vaadin-themes', version:vaadinVersion
+    compile group:'com.vaadin', name:'vaadin-theme-compiler', version:vaadinVersion
+    compile group: "org.vaadin.addons", name:"dcharts-widget", version: "1.7.0"
+   
+    compile fileTree(dir: 'libs', includes: ['*.jar'])  
+    testCompile 'junit:junit:4.8.2'
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}
+
+war {
+    webXml = file('src/main/webapp/WEB-INF/web.xml') // copies a file to WEB-INF/web.xml
+    baseName = 'OsManagerWeb'
+}

@@ -1,0 +1,17 @@
+/build
+# Java class files
+*.class
+*.DS_Store
+ 
+# Local configuration file (sdk path, etc)
+local.properties
+ 
+# Eclipse project files
+.classpath
+.project
+ 
+#Gradle
+.gradletasknamecache
+.gradle/
+build/
+bin/

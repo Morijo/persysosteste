@@ -1,0 +1,101 @@
+apply plugin: "java"
+apply plugin: 'eclipse-wtp'
+apply plugin: "maven"
+apply plugin: "war"
+apply plugin: 'jetty'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets.all { set ->
+    def jarTask = task("${set.name}Jar", type: Jar) {
+        baseName = baseName + "-$set.name"
+        from set.output
+    }
+
+    artifacts {
+        archives jarTask
+    }
+}
+
+sourceSets {
+    api
+    restmb  
+}
+
+List compileLibraries = ['com.sun.jersey:jersey-server:1.18',
+                        'com.sun.jersey:jersey-grizzly2:1.18',
+                        'com.sun.jersey:jersey-core:1.18',
+                        'com.sun.jersey.contribs:jersey-multipart:1.18',
+                        'com.sun.jersey.contribs.jersey-oauth:oauth-signature:1.18',
+                        'com.sun.jersey.contribs.jersey-oauth:oauth-server:1.18', 
+                        'log4j:log4j:1.2.17',
+                        'javax.ws.rs:jsr311-api:1.1.1',
+                        'org.imgscalr:imgscalr-lib:4.2',
+                        'com.sun.jersey:jersey-bundle:1.18',
+                        'javax.servlet:servlet-api:3.0-alpha-1',
+                        'org.apache.httpcomponents:httpclient:4.0-alpha4',
+                        'org.postgresql:postgresql:9.3-1100-jdbc4',
+                        'com.thoughtworks.xstream:xstream:1.4.7',
+                        'org.apache.commons:commons-email:1.1',
+                        'org.json:json:20140107',
+                        'net.coobird:thumbnailator:0.4.1',
+                        'javax.xml:jaxb-impl:2.1',
+                        'org.hibernate:hibernate-c3p0:4.1.3.Final',
+                        'com.vividsolutions:jts:1.11']
+
+tasks.withType(Compile) {
+  options.encoding = "iso-8859-1"
+}
+
+dependencies {
+
+    apiCompile 'commons-codec:commons-codec:1.5'
+    apiCompile group: 'org.hibernate', name: 'hibernate-core', version: '4.1.3.Final'
+    apiCompile (compileLibraries)
+  
+    restmbCompile sourceSets.api.output
+    testCompile 'junit:junit:4.9'
+    testCompile sourceSets.api.output
+    testCompile sourceSets.restmb.output
+    runtime configurations.apiRuntime
+    runtime configurations.restmbRuntime
+   
+ }
+ 
+jar {
+    from sourceSets.restmb.output
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri("${buildDir}/repo"))
+
+            addFilter("main") { artifact, file -> artifact.name == project.name }
+            ["api", "restmb"].each { type ->
+                addFilter(type) { artifact, file -> artifact.name.endsWith("-$type") }
+                
+                // We now have to map our configurations to the correct maven scope for each pom
+                ["compile", "runtime"].each { scope ->
+                    configuration = configurations[type + scope.capitalize()]
+                    ["main", type].each { pomName ->
+                        pom(pomName).scopeMappings.addMapping 1, configuration, scope
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+war {
+    webXml = file('src/api/webapp/WEB-INF/web.xml') // copies a file to WEB-INF/web.xml
+}

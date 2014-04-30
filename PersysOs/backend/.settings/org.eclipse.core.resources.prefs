@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/api/java/br/com/cliente/model/Cliente.java=UTF-8
+encoding//src/api/java/br/com/clienteobjeto/model/ClienteObjeto.java=UTF-8
+encoding//src/api/java/br/com/clienteobjeto/model/ClienteObjetoProduto.java=UTF-8
+encoding//src/api/java/br/com/clienteobjeto/model/Contrato.java=UTF-8
+encoding//src/api/java/br/com/contato/model/Contato.java=UTF-8
+encoding//src/api/java/br/com/contato/model/Endereco.java=UTF-8
+encoding//src/api/java/br/com/funcionario/model/Funcionario.java=UTF-8
+encoding//src/api/java/br/com/usuario/model/GrupoUsuario.java=UTF-8
+encoding//src/api/java/br/com/usuario/model/GrupoUsuarioPermissao.java=UTF-8
+encoding//src/api/java/br/com/usuario/model/Permissao.java=UTF-8
+encoding//src/api/java/br/com/usuario/model/Usuario.java=UTF-8
+encoding/<project>=UTF-8

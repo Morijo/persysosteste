@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory name="">
+		<mapping class="br.com.funcionario.model.Funcionario" />
+		<mapping class="br.com.funcionario.model.Rastreador" />
+		<mapping class="br.com.login.model.Login" />
+		<mapping class="br.com.usuario.model.Usuario" />
+		<mapping class="br.com.usuario.model.UsuarioAgenda" />
+		<mapping class="br.com.usuario.model.GrupoUsuario" />
+		<mapping class="br.com.usuario.model.GrupoUsuarioPermissao" />
+		<mapping class="br.com.usuario.model.Permissao" />
+		<mapping class="br.com.usuario.model.EmailSMTP" />
+		<mapping class="br.com.usuario.model.AplicacaoAgente" />
+		<mapping class="br.com.produto.model.Produto" />
+		<mapping class="br.com.ordem.model.Prioridade" />
+		<mapping class="br.com.ordem.model.Nota" />
+		<mapping class="br.com.ordem.model.OrdemProcedimento" />
+		<mapping class="br.com.ordem.model.BaseConhecimento" />
+		<mapping class="br.com.ordem.model.Ordem" />
+		<mapping class="br.com.ordem.model.Anexo" />
+		<mapping class="br.com.ordem.model.ServicoOrdem" />
+		<mapping class="br.com.ordem.model.RecursoOrdem" />
+		<mapping class="br.com.ordem.model.SituacaoOrdem" />
+		<mapping class="br.com.ordem.model.SituacaoOrdemPermissao" />
+		<mapping class="br.com.ordem.model.AgendaOrdemFuncionario" />
+		<mapping class="br.com.servico.model.Servico" />
+		<mapping class="br.com.servico.model.Procedimento" />
+		<mapping class="br.com.servico.model.ServicoProcedimento" />
+		<mapping class="br.com.recurso.model.RecursoHabilitado" />
+		<mapping class="br.com.despesas.model.Despesas" />
+		<mapping class="br.com.despesas.model.ItensDespesas" />
+		<mapping class="br.com.cliente.model.Cliente" />
+		<mapping class="br.com.clienteobjeto.model.ClienteObjeto" />
+		<mapping class="br.com.clienteobjeto.model.Contrato" />
+		<mapping class="br.com.clienteobjeto.model.ClienteObjetoProduto" />
+		<mapping class="br.com.clienteobjeto.model.ClienteObjetoRecurso" />
+		<mapping class="br.com.contato.model.Contato" />
+		<mapping class="br.com.contato.model.Endereco" />
+		<mapping class="br.com.empresa.model.Departamento" />
+		<mapping class="br.com.empresa.model.Organizacao" />
+		<mapping class="br.com.empresa.model.Unidade" />
+		<mapping class="br.com.empresa.model.UnidadeRecurso" />
+		<mapping class="br.com.recurso.model.Recurso" />
+		<mapping class="br.com.recurso.model.Material" />
+		<mapping class="br.com.recurso.model.Dispositivo" />
+		<mapping class="br.com.recurso.model.Equipamento" />
+		<mapping class="br.com.recurso.model.ChipDispositivo" />
+		<mapping class="br.com.recurso.model.Chip" />
+		<mapping class="br.com.recurso.model.Medida" />
+		<mapping class="br.com.frota.model.Veiculo" />
+		<mapping class="br.com.oauth.model.ConsumerSecret" />
+		<mapping class="br.com.oauth.model.RequestToken" />
+		<mapping class="br.com.oauth.model.AccessToken" />
+		<mapping class="br.com.eventos.model.Alerta" />
+		<mapping class="br.com.eventos.model.Evento" />
+		<mapping class="br.com.eventos.model.Ponto" />
+		<mapping class="br.com.eventos.model.TipoEvento" />
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="backend">
+		<property name="context-root" value="backend"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/asm/asm/3.1/jar/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/backend/build/classes/api">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.imgscalr/imgscalr-lib/4.2/jar/e2838f7119361511ef7d54fe0d502bf07f3325eb/imgscalr-lib-4.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.servlet/servlet-api/3.0-alpha-1/jar/7b491267924e8c81f4f9378caba0ee03423948ca/servlet-api-3.0-alpha-1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey/jersey-core/1.18/jar/b3d0fde341fafdab2318602954218d38727f95cf/jersey-core-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/dom4j/dom4j/1.6.1/jar/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.postgresql/postgresql/9.3-1100-jdbc4/jar/7a09dd2b8c01babc07617973fd6f99c007e2b786/postgresql-9.3-1100-jdbc4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey.contribs.jersey-oauth/oauth-server/1.18/jar/9f432f9995a6d189aaafba4a602a68856d119276/oauth-server-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.jvnet.mimepull/mimepull/1.9.3/jar/c55096ff89a27e22c2e081371d0570ac19cc6788/mimepull-1.9.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/c3p0/c3p0/0.9.1/jar/759f6c11f515ee799814c43e4a50281220014ca/c3p0-0.9.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.hibernate/hibernate-core/4.1.3.Final/jar/9ef5d2cc987fc58d531236af73e4502a019c066a/hibernate-core-4.1.3.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/xpp3/xpp3_min/1.1.4c/jar/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/net.coobird/thumbnailator/0.4.1/jar/2df7798b164e3b4a41de9fa02154e1ba91c85f27/thumbnailator-0.4.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/jar/3306a165afa81938fc3d8a0948e891de9f6b192b/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jar/2ab6236535e085d86f37fd97ddfdd35c88c1a419/jboss-transaction-api_1.1_spec-1.0.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey/jersey-bundle/1.18/jar/3cb0f514f3183456c5910f00fc8e976e65b3d23/jersey-bundle-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.glassfish.grizzly/grizzly-http-server/2.2.16/bundle/a79da85b6845109a809a46f47ea104fc323599c7/grizzly-http-server-2.2.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey/jersey-server/1.18/jar/5f60786cb44b6e00d572506a82c5da6d17173fa1/jersey-server-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.glassfish.grizzly/grizzly-framework/2.2.16/bundle/29aa7b45289a0d293a7278b2d185d401ef367f92/grizzly-framework-2.2.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/antlr/antlr/2.7.7/jar/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.apache.httpcomponents/httpclient/4.0-alpha4/jar/277e129e635f21fe78089b00fd0a325d10849aff/httpclient-4.0-alpha4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey.contribs.jersey-oauth/oauth-signature/1.18/jar/b861c24c0de50ac51cbf0572072160b494ab05da/oauth-signature-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey.contribs/jersey-multipart/1.18/jar/73702df86c6d185ec98f827561df8fabe1ce2570/jersey-multipart-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/git/persysosteste3/PersysOs/backend/build/resources/api">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.activation/activation/1.1/jar/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.hibernate.common/hibernate-commons-annotations/4.0.1.Final/jar/78bcf608d997d0529be2f4f781fdc89e801c9e88/hibernate-commons-annotations-4.0.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.javassist/javassist/3.15.0-GA/jar/79907309ca4bb4e5e51d4086cc4179b2611358d7/javassist-3.15.0-GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.xml/jaxb-impl/2.1/jar/8c86d5d4eac7f89cec63432274d712ba82cd201b/jaxb-impl-2.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/xerces/xercesImpl/2.4.0/jar/9e2205a4b10554ffddc50bbc4ca8abeb1d537e14/xercesImpl-2.4.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.glassfish.grizzly/grizzly-rcm/2.2.16/bundle/aefe5167726230d04e96234d9ede9c864356fd8a/grizzly-rcm-2.2.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.json/json/20140107/jar/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.thoughtworks.xstream/xstream/1.4.7/jar/bce3282142b63068260f021fcbe48b72e8d71a1a/xstream-1.4.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.glassfish.grizzly/grizzly-http/2.2.16/bundle/1dd583627a7ae8ccfe0aef81fe7f366bf4d563c9/grizzly-http-2.2.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/commons-codec/commons-codec/1.5/jar/cf993e250ff71804754ec2734a16f23c0be99f70/commons-codec-1.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/xmlpull/xmlpull/1.1.3.1/jar/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.mail/mail/1.4/jar/1aa1579ae5ecd41920c4f355b0a9ef40b68315dd/mail-1.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.sun.jersey/jersey-grizzly2/1.18/jar/30ef93aa529641f6c68cfced0fb4594a4735b247/jersey-grizzly2-1.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.apache.commons/commons-email/1.1/jar/a05c4de7bf2e0579ac0f21e16f3737ec6fa0ff98/commons-email-1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.apache.httpcomponents/httpcore/4.0-beta1/jar/c642a5f7c20539840957584b1af2ad798cd1ba52/httpcore-4.0-beta1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/com.vividsolutions/jts/1.11/jar/2d01da0781ab2b6169b8079e447112c49abe2171/jts-1.11.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/javax.ws.rs/jsr311-api/1.1.1/jar/59033da2a1afd56af1ac576750a8d0b1830d59e6/jsr311-api-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.jboss.logging/jboss-logging/3.1.0.GA/jar/c71f2856e7b60efe485db39b37a31811e6c84365/jboss-logging-3.1.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/ricardosabatine/.gradle/caches/artifacts-23/filestore/org.hibernate/hibernate-c3p0/4.1.3.Final/jar/fd7e4746dfa65582407728e180af9d2f48c812f3/hibernate-c3p0-4.1.3.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

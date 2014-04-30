@@ -1,0 +1,7 @@
+multiproject {
+  rootFolder '../PersysOs'
+  git baseUrl: 'https://github.com/sabatine2/persysos.git', {
+    project name: 'backend'
+    project name: 'frontend', dependsOn: 'backend'
+  }
+}
